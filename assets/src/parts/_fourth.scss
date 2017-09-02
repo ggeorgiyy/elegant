@@ -1,0 +1,37 @@
+.fourth {
+
+	width: 100%;
+
+	height: 3880px;
+
+
+	&__title {
+
+		color: $color-w;
+				font-family: $font-L;
+
+		font-size: 35px;
+font-weight: 700;
+line-height: 60px;
+text-transform: uppercase;
+	}
+
+
+	.fourth-images {
+
+		height: 420px;
+		width: 1110px;
+
+		@include flexrow();
+
+		justify-content: center;
+			align-items: center;
+
+			&__item {
+
+				width: 370px;
+				height: 420px;
+			}
+	}
+
+}

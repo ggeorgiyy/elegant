@@ -1,0 +1,118 @@
+.second {
+
+		width: 100%;
+		height: 900px;
+
+		&__title {
+
+			color: $color-b;
+			font-family: $font-R;
+			font-size: 35px;
+			font-weight: 700;
+			line-height: 60px;
+			text-transform: uppercase;
+			text-align: center;
+			margin-top: 116px;
+			margin-bottom: 150px;
+
+		}
+
+	
+
+
+		&__services {
+
+
+			@include flexrow();
+
+			justify-content: space-around;
+			align-items: flex-start; 
+
+				.services-item {
+
+					width: 192px;
+					height: 430px;
+
+					
+				
+
+					.services-item__image--iphone {
+
+						width: 75px;
+						height: 132px;
+						margin-left: 30%;
+						margin-bottom: 52px;
+					}
+
+					.services-item__image--screens {
+
+						width: 192px;
+						height: 149px;
+						margin: 0 auto;
+						margin-bottom: 37px;
+					}
+
+					.services-item__image--checkmark {
+
+						width: 116px;
+						height: 116px;
+						margin-left: 20%;
+						margin-top: 21px;
+						margin-bottom: 49px;
+					}
+
+
+
+
+
+					.services-item__title {
+
+						color: $color-b;
+						font-family: $font-L;
+
+						font-size: 24px;
+						line-height: 24px;
+						text-align: center;
+						
+					}
+
+
+					.services-item__title--t1 {
+						margin-bottom: 52px;
+
+					}
+
+					.services-item__title--t2 {
+						margin-bottom: 37px;
+
+					}
+
+					.services-item__title--t3 {
+						margin-bottom: 49px;
+
+					}
+
+
+
+					.services-item__text {
+
+
+
+						color: $color-b;
+						font-family: $font-L;
+
+						font-size: 16px;
+						line-height: 30px;
+						text-align: center;
+
+
+
+					}
+
+
+				} 
+
+
+		}
+
+}
